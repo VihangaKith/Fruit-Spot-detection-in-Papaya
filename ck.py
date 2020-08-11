@@ -11,15 +11,7 @@ try:
     makedirs(output_loc)
 except:
     print ("Directory already exist, images will be written in data folder")
-r = tk.Tk()
-
-
-output_loc = 'D:\\Education\\3rd Year\\3rd Year Project\\Project\\Papaw\\data\\'
-
-try:
-    makedirs(output_loc)
-except:
-    print ("Directory already exist, images will be written in data folder")
+	
 
 
 img = cv2.imread('ringspot.png', cv2.IMREAD_GRAYSCALE)
